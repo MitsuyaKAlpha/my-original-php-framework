@@ -1,3 +1,9 @@
 {
-    
+    "name": "mi/my-original-php-framework",
+    "description": "original framework",
+    "autoload": {
+        "psr-4": {
+            "Mi\\OriginalPhpFramework\\": "src/"
+        }
+    }
 }
