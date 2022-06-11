@@ -18,7 +18,7 @@ class HttpResponse
     public function emitResponse()
     {
         foreach ($this->headers as $key => $value) {
-            echo "$key: $value";
+            header("$key: $value");
         }
 
         echo $this->body;
